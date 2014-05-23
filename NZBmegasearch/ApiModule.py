@@ -277,7 +277,7 @@ class ApiResponses:
 	def tvrage_getshowinfo(self, rid ):	
 		parsed_data = {'showtitle': ''}
 
-		url_tvrage = 'http://www.tvrage.com/feeds/showinfo.php'
+		url_tvrage = 'http://services.tvrage.com/feeds/showinfo.php'
 		urlParams = dict( sid=rid )			
 		#~ loading
 		try:
