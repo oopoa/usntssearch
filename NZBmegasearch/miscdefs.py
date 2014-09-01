@@ -386,7 +386,7 @@ class ChkVersion:
 
 	def chk_repos_ver(self): 
 		verify_str = '80801102808011028080110280801102'
-		url_versioning = 'https://raw.github.com/pillone/usntssearch/master/NZBmegasearch/vernum.num'
+		url_versioning = 'https://raw.github.com/oopoa/usntssearch/master/NZBmegasearch/vernum.num'
 		
 		#~ print 'MISCDEFS: TO REMOVE  LINE IN AUTOUPD  BEFORE DEPLOYMENT'
 		try:
